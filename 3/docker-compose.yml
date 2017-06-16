@@ -1,0 +1,12 @@
+mshm_cc:
+  ports:
+    - "8085:8080"
+  image: lajosherendi/mshm_cc:latest
+mshm_badcoin:
+  ports:
+    - "8086:8080"
+  image: lajosherendi/mshm_badcoin:latest
+mshm_payfriend:
+  ports:
+    - "8087:8080"
+  image: lajosherendi/mshm_payfriend:latest
